@@ -21,5 +21,5 @@ def get_signatures(address=None):
     data, count = query.execute()
     return data[1] if data else []
 
-data = get_signatures("0xeD4467f352B2b346D39B33adB24BACB8FB665a68")
+data = get_signatures("0x000")
 print(data[0]['signature'])
