@@ -1,6 +1,6 @@
 # Supabase ChatGPT Plugin Quickstart
 
-This quickstart guide will help you set up and run a ChatGPT plugin that utilizes [SupaBase](https://supabase.com/) to interact with a database. This plugin has been made in alliance with the [ChatGPT plugins documentation](https://platform.openai.com/docs/plugins). If you do not already have plugin developer access, please [join the waitlist](https://openai.com/waitlist/plugins).
+This quickstart guide will help you set up and run a ChatGPT plugin that utilizes [Supabase](https://supabase.com/) to interact with a database. This plugin has been made in alliance with the [ChatGPT plugins documentation](https://platform.openai.com/docs/plugins). If you do not already have plugin developer access, please [join the waitlist](https://openai.com/waitlist/plugins).
 
 ## Setup locally
 
