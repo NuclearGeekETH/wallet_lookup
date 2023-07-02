@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Address Signature Checker",
+  "name_for_model": "address_signature_checker",
+  "description_for_human": "Check if an address has a corresponding signature.",
+  "description_for_model": "Plugin for checking if an address has a corresponding signature.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5003/openapi.yaml"
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}

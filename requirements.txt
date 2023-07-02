@@ -1,0 +1,6 @@
+quart
+quart-cors
+json
+supabase
+os
+dotenv

@@ -1,0 +1,45 @@
+openapi: 3.0.1
+info:
+  title: Address Signature Checker Plugin
+  description: A plugin that allows the user to check if an address has a corresponding signature.
+  version: '1.0.0'
+servers:
+  - url: http://localhost:5003
+paths:
+  /check_address/{address}:
+    post:
+      operationId: checkAddress
+      summary: Check if an address has a corresponding signature
+      parameters:
+        - in: path
+          name: address
+          schema:
+            type: string
+          required: true
+          description: Ethereum address
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  signature:
+                    type: string
+                    description: Signature of the address
+        '400':
+          description: Address not found. Making fun of the user.
+          content:
+            text/plain:
+              schema:
+                type: string
+
+components:
+  examples: {}
+  headers: {}
+  parameters: {}
+  requestBodies: {}
+  responses: {}
+  schemas: {}
+  securitySchemes: {}
