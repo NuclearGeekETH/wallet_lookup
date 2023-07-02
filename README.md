@@ -23,7 +23,7 @@ SUPABASE_SERVICE_API_KEY="YOUR_SUPABASE_SERVICE_API_KEY"
 4. Make sure you replace the keys with your information from Supabase.
 5. Save the .env file.
 
-You will need to edit ```main.py``` with your supabase table name and query information. If you change @app.post then you will need to also update openpai.yaml and ./well-known/ai-plugin.json. You could copy/paste those three blocks of code into ChatGPT with a request on what to change and let ChatGPT do it for you!
+You will need to edit ```main.py``` with your supabase table name and query information. If you change the ```@app.post``` function in ```main.py``` then you will need to also update ```openpai.yaml``` and ```./well-known/ai-plugin.json```. You could copy/paste those three blocks of code into ChatGPT with a request on what to change and let ChatGPT do it for you!
 
 To run the plugin, enter the following command:
 
